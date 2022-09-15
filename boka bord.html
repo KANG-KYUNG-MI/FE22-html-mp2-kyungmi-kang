@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MENY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e15c3437dc.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    .item2 {
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 5rem;
+        padding-bottom: 4rem;
+        font-size: 30px;
+    }
+
+    form {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    ul {
+        list-style: none;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 20px;
+        gap: 5px;
+    }
+</style>
+
+<body>
+    <main>
+        <header>
+            <img src="images/logo-01.png" alt="logo">Koreansk Restaurang</a>
+        </header>
+
+        <nav class='navbar'>
+            <div class='navbar_logo'>
+                <i class="fa-solid fa-tree"></i>
+                <i class="fa-solid fa-tree"></i>
+                <a href="">나무</a>
+            </div>
+
+            <div class='navbar_menu'>
+                <ul class='navbar_menu li'>
+                    <li><a href="../index.html">HEM</a></li>
+                    <li><a href="meny.html">MENY</a></li>
+                    <li><a href="boka bord.html">BOKA BORD</a></li>
+                    <li><a href="">OM OSS</a></li>
+                    <li><a href="">GELLERI</a></li>
+                    <li><a href="">EVENT</a></li>
+                    <li><a href="">KONTAK</a></li>
+                </ul>
+            </div>
+            <div class='namu_icon'>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </nav>
+
+        <div class='item1'>
+            <img src="images/royal dinning-2.jpg" alt="royal dinning">
+
+        </div>
+
+        <div class='item2'>
+            
+            <h2> <div class='navbar_logo'>
+                <i class="fa-solid fa-tree"></i>
+                <i class="fa-solid fa-tree"></i>
+                <a href="">나무</a>
+            </div>VÄLKOMMEN TILL RESTAURANG NAMU I MALMÖ
+            </h2>
+            <form>
+                <fieldset>
+                    <legend>BOKA BORD</legend>
+                    <ul>
+                        <li>
+                            <label for="user-name">NAMN : </label>
+                            <input type="text" id="user-name">
+                        </li>
+
+                        <li>
+                            <label for="date">DATUM : </label>
+                            <input type="date" id="date">
+                        </li>
+
+                        <li>
+                            <label for="time">TID : </label>
+                            <input type="time" id="time">
+                        </li>
+
+                        <li>
+                            <label for="text">ÖVRIGA ÖNSKEMÅL : </label>
+                            <input type="email" id="mail">
+                        </li>
+
+                        <li>
+                            <label for="phone">TEL: </label>
+                            <input type="tel" id="phone">
+                        </li>
+
+                    </ul>
+                </fieldset>
+                <input type="submit" value="skicka">
+            </form>
+
+        </div>
+
+        <footer>
+            Adress : Landbygatan 5, 211 34 Malmö <br><br>
+            E-post : info@namu.nu<br><br>
+            Telefon : 040 - 12 14 90
+
+
+
+    </main>
+</body>
+
+</html>
